@@ -7,13 +7,7 @@
             <div class="col-12">
                 <h2><?php the_field('o_nama_naslov'); ?></h2>
                 <p class="lead">
-                    Portal "Pokreni se" bavi se rekreacijom i potrebom čoveka za kretanjem. Svakako je sport veoma važan kako za fizičko tako i za duhovno stanje čoveka. Nije slučajna izreka u "U zdravom temu zdrav duh".
-                    <br><br>
-                    Pored sporta bavićemo se motivacijom kao životnom snagom koja nas gura napred i pomaže da se snađemo u životu i radu.
-                    <br><br>
-                    Portal će se baviti i tematikom, kako se uopšte pokrenuti i učiti nove stvari, pre svega poslove koji su vezani za neki život koji nas ne drži u mestu već možemo da ga radimo sa bilo kojeg mesta na planeti. Pomoći ćemo Vam kako da steknete veštine koje Vam omogućuju da na primer vozite rolere pre podne dok je vežina ljudi na svom poslu ili da u sredu ujutro idete na planinarsku šetnju.
-                    <br><br>
-                    Dobićete i savete i tekstove kako skuvati sami zdrav obrok za 20 minuta kao i mnoge druge savete vezane za zdravu ishranu kao veoma važnu kariku koja nam daje preko potrebnu energiju.
+                   <?php the_field('o_nama_opis'); ?>
                 </p>
             </div>
         </div>
@@ -22,8 +16,10 @@
 
 <!-- teme -->
 <section class="teme py-5 text-center">
-    <h2>Teme</h2>
-    <p class="lead">Ako vas interesuju neke od tema prijavite se i pisite o nekoj od navedenih oblasti</p>
+    <h2><?php the_field('teme_naslov'); ?></h2>
+    <p class="lead">
+        <?php the_field('teme_podnaslov'); ?>
+    </p>
     <div class="row">
         <div class="col-md-4 animate__animated animate__fadeInLeft animate__delay-4s">
             <h3>Sport i rekreacija</h3>
